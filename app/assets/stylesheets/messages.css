@@ -1,0 +1,50 @@
+.wrapper{
+  display: flex;
+  
+}
+
+.side_header{
+  background-color: #253141;
+  height: 100px;
+  width: 300px;
+  
+}
+
+.side_bar{
+  background-color: #2F3E51;
+  height: calc(100vh - 100px);
+
+
+ }
+
+ .room{
+  background-color: #2F3E51;
+  width: 300px;
+  height: calc(100vh - 100px);
+  padding: 0 20px;
+ 
+ }
+
+.main_header{
+  background-color: #FFFFFF;
+  height: 100px;
+  padding: 0 40px;
+}
+
+
+.messages{
+  background-color: #FAFAFA;
+  width:calc(100vw - 300px);
+  height:calc(100vh - 190px);
+  padding: 46px 40px 0 ;
+
+}
+
+
+.form{
+  background-color: #DDDDDD;
+  height: 90px;
+  padding: 20px 40px;
+  
+
+}
