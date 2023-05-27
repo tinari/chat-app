@@ -4,5 +4,4 @@ class CreateRooms < ActiveRecord::Migration[6.0]
       t.string :name,null: false
       t.timestamps
     end
-  end
 end
