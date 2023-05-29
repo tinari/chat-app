@@ -1,21 +1,22 @@
-<div class="main_header">
+<div class="chat-header">
  <div class="left-header">
- <div class="chat-overview"><%= @room.name %>
+ <div class="chat-overview">
+ <%= @room.name %>
  </div>
 </div>
 <div class="right-header">
 <div class="exit">
-<a href="#">チャットを終了する</a>
+<%= link_to "チャットを終了する", room_path(@room), method: :delete %>
 </div>
 </div>
 </div>
 
 <div class= "messages">
  <% render partial:'message', collection: @messages%>
- 
+
 </div>
 
-<%= form_with model: [@room, @message], ciass: 'form', local: true do |f| %>
+<%= form_with model: [@room, @message], class: 'form', local: true do |f| %>
  <div class="form-bar">
   <%= f.text_field :content, class: "form-message", placeholder= "type a message" %>
   <label class= "form-image">
