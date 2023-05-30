@@ -6,7 +6,11 @@
 
     </div>
     <div class="message-date">
+
      <%= l message.created_at %>
+
+     <%= l message.create_at %>
+
      
       
 
@@ -17,6 +21,9 @@
       <%= message.content%>
 
     </div>
+
     <%= image_tag message.image, class: 'message-image' if message.image.attached? %>
+
+
   </div>
 </div>

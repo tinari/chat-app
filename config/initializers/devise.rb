@@ -99,11 +99,11 @@ Devise.setup do |config|
   # passing skip: :sessions to `devise_for` in your config/routes.rb
   config.skip_session_storage = [:http_auth]
 
-  # By default, Devise cleans up the CSRF token on authentication to
-  # avoid CSRF token fixation attacks. This means that, when using AJAX
-  # requests for sign in and sign up, you need to get a new CSRF token
+  # By default, Devise cleans up the  token on authentication to
+  # avoid  token fixation attacks. This means that, when using AJAX
+  # requests for sign in and sign up, you need to get a new  token
   # from the server. You can disable this option at your own risk.
-  # config.clean_up_csrf_token_on_authentication = true
+  # config.clean_up__token_on_authentication = true
 
   # When false, Devise will not attempt to reload routes on eager load.
   # This can reduce the time taken to boot the app but if your application
